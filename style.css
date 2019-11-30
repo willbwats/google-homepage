@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav {
+    opacity: 0.75;
+    text-decoration-style: solid;
+    margin: 0;
+    padding: 0;
+    padding-bottom:68px;
+    margin-top: 22px;
+    margin-left: -20px;
+}
+
+ul {
+    list-style-type: none; 
+}
+
+li{
+    font-size: 13px;
+    padding: 15px, 15px;
+    float: left;
+}
+
+li a{
+    margin-right: 30px;
+    cursor: pointer;
+    display: inline;
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover{
+    text-decoration: underline;
+
+}
+
+#Center img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.searchbar input {
+    border: none;
+    height: 50px;
+    width: 500px;
+    border: 1px solid #eaeaea;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    outline:none;
+    border-radius: 35px;
+
+}
+
+.searchbar input:hover{
+    border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+}
+
+.searchbar input:focus{
+    border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+
+}
+
+#button-container{
+    text-align: center;
+}
+
+.Search {
+    font-size: 14px;
+    border: none;
+    background-color: #F2F2F2;
+    height: 36px;
+    width: 127px;
+    margin: auto;
+}
+
+.FeelingLucky{
+    font-size: 14px;
+    border: none;
+    background-color: #F2F2F2;
+    height: 36px;
+    width: 140px;
+    margin: auto;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 12px;
+    margin-left: -5px;
+    width: 100%; 
+}
+
+#footer-top {
+    margin-left: 40px;
+    padding-bottom: 10px;
+}
